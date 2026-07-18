@@ -1,3 +1,10 @@
+body{
+    margin: 0px;
+    background-color: rgb(184, 175, 175);
+
+}
+
+
 h1{
     color:yellow;
 }
@@ -8,6 +15,7 @@ h1{
     border-color: red;
     padding: 20px;
     text-align: center;
+    background-color: white;
 }
 
 .navbar a{
@@ -20,4 +28,31 @@ h1{
 .navbar a:hover{
     color: purple;
     background-color: beige;
+}
+
+.card{
+    border: 1px solid grey;
+    width: 350px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 70px;
+    overflow: hidden;
+    /* margin-left: 40%; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.card img{
+    /* width: 300px; */
+    width: 100%;
+
+}
+
+.card button{
+    border-style: none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 8px;
 }
